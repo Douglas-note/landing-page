@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    font-family: "Roboto";
+    align-items: center;
+
+}
+
+.logo {
+    height: auto;
+    width: 50px;
+    padding-left: 10px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.first-section {
+    display: flex;
+}
+
+.second-section {
+    display: flex;
+}
+
+.third-section {
+    display: flex;
+}
+
+.fourth-section {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
+
+body {
+    margin: 0px;
+}
