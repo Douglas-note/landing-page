@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1F2937;
     font-family: "Roboto";
     align-items: center;
@@ -27,6 +27,41 @@ a {
 
 .first-section {
     display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 20px 0px;
+}
+
+.this-website-section {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+   font-size: 48px;
+   color: #f9faf8;
+   font-weight: 900; 
+}
+
+button {
+    width: 100px;
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+    padding: 2px 5px;
+}
+
+.img-background {
+    box-sizing: border-box;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paper-background {
+    width: 200px;
+    height: auto;
 }
 
 .second-section {
@@ -48,3 +83,6 @@ a {
 body {
     margin: 0px;
 }
+
+
+
