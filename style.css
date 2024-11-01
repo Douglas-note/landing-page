@@ -23,11 +23,12 @@ ul {
 a {
     text-decoration: none;
     color: white;
+    font-size: 18px;
 }
 
 .first-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #1F2937;
     padding: 20px 0px;
 }
@@ -35,23 +36,34 @@ a {
 .this-website-section {
     display: flex;
     flex-direction: column;
+    width: 300px;
 }
 
 h1 {
    font-size: 48px;
    color: #f9faf8;
    font-weight: 900; 
+   margin-bottom: 0;
 }
 
-button {
+.para-one {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.button-one {
     width: 100px;
     background-color: #3882f6;
     color: white;
-    border-color: white;
+    border-color: #3882f6;
     padding: 2px 5px;
+    border-radius: 5px;
+    margin-top: 5px;
 }
 
 .img-background {
+    width: 300px;
     box-sizing: border-box;
     padding: 14px;
     display: flex;
@@ -66,6 +78,36 @@ button {
 
 .second-section {
     display: flex;
+    flex-direction: column;
+}
+
+.header-two {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+}
+
+.mini-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.square {
+    border: 5px solid blue;
+    width: 100px;
+    height: 100px;
+}
+
+#piece {
+    margin-bottom: 32px;
 }
 
 .third-section {
